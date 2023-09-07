@@ -1,0 +1,198 @@
+.consultas {
+    margin: 1em;
+}
+
+.consultas-titulo {
+    padding: 1em 0;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--fonte-projeto);
+    color: var(--cor-principal);
+}
+
+.card {
+    background-color: var(--botão-borda-audio);
+    border-radius: 10px;
+    padding: 1.5em 1em;
+    margin-bottom: 1em;
+}
+
+.card-informacoes-paciente {
+    display: flex;
+    align-items: center;
+    padding: 0 0 .5em 0;
+}
+
+.card-informacoes-paciente-foto {
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+}
+
+.card-informacoes-paciente-nome {
+    padding: 0 1em;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: var(--fonte-projeto);
+    color: var(--cor-principal);
+}
+
+.card-informacoes-paciente-tipoconsulta {
+    padding: .5em 0 0 1em;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--fonte-projeto);
+    color: var(--cor-secundaria);
+    display: flex;
+    align-items: center;
+
+}
+
+.card-informacoes-paciente-tipoconsulta-pin {
+    padding: 0 .4em 0 0;
+}
+
+.card-informacoes-paciente-mensagem {
+    padding-left: 7em;
+}
+
+.card-comunicacao-paciente {
+    padding: 0.5em 0;
+}
+
+.card-comunicacao-paciente-horario {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--fonte-projeto);
+    color: var(--cor-principal);
+}
+
+.card-comunicacao-paciente-lista-botoes {
+    display: flex;
+    justify-content: center;
+}
+
+.card-comunicacao-paciente-lista-botoes-item {
+    padding: 1.5em 0 0 0;
+}
+
+.card-comunicacao-paciente-lista-botoes-item-video {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--fonte-projeto);
+    color: var(--branco);
+    background-color: var(--botão-vídeo);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 1em 1em;
+    margin-right: 3em;
+}
+
+.card-comunicacao-paciente-lista-botoes-item-audio {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--fonte-projeto);
+    color: var(--cor-principal);
+    background-color: var(--branco);
+    border-radius: 10px;
+    border: 1px solid var(--botão-borda-audio);
+    text-decoration: none;
+    padding: 1em 1em;
+}
+
+.card-comunicacao-paciente-botao-endereço {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--fonte-projeto);
+    color: var(--branco);
+    background-color: var(--botão-endereço);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+
+.ultimo-card {
+    margin-bottom: 4.5em;
+}
+
+@media screen and (min-width:1024px) {
+    .consultas-titulo {
+        font-size: 20px;
+    }
+    .card-informacoes-paciente-foto{
+        height: 44px;
+        width: 44px;
+        border-radius: 44px;
+    }
+    .card-informacoes-paciente-nome{
+        font-size: 18px;
+    }
+    .card-informacoes-paciente-tipoconsulta{
+        font-size: 16px;
+    
+    }
+    .card-comunicacao-paciente-horario {
+        font-size: 14px;
+    }
+    .card{
+        width: 45%;
+        margin-bottom: 1.5em;
+    }
+    .card-comunicacao-paciente-lista-botoes-item-video {
+        margin-right: 3em;
+    }
+    .card-comunicacao-paciente-lista-botoes{
+        margin-top: .5em;
+    }
+    .card-comunicacao-paciente-botao-endereço {
+        margin-top: 1em;
+        margin: 1 1.5em 0 1.5em;
+    }
+    .alinhar-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 1.5em;
+      }
+    
+      .card-comunicacao-paciente-lista-botoes-item-audio, .card-comunicacao-paciente-lista-botoes-item-video, 
+      .card-comunicacao-paciente-botao-endereço {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .consultas-titulo {
+        font-size: 26px;
+    }
+    .card-informacoes-paciente-foto{
+        height: 60px;
+        width: 60px;
+        border-radius: 60px;
+    }
+    .card-informacoes-paciente-nome{
+        font-size: 22px;
+    }
+    .card-informacoes-paciente-tipoconsulta{
+        font-size: 20px;
+    
+    }
+    .card-comunicacao-paciente-horario {
+        font-size: 18px;
+    }
+    .card{
+        width: 30%;
+    }
+
+    .card-comunicacao-paciente-lista-botoes{
+        margin-top: .8em;
+    }
+    
+    .card-comunicacao-paciente-lista-botoes-item-audio, .card-comunicacao-paciente-lista-botoes-item-video, 
+    .card-comunicacao-paciente-botao-endereço {
+        font-size: 20px;
+    }
+}

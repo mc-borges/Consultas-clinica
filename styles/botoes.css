@@ -1,0 +1,104 @@
+.botao-expansivel {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.botao-expansivel-principal {
+    bottom: 50px;
+    position: fixed;
+    right: 14px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;    
+    z-index: 3;
+}
+
+.botao-expansivel-checkbox {
+    display: none;
+}
+
+.botao-expansivel-checkbox:checked + .botao-expansivel-principal + .outros-botoes .botao-secundario-endereco{
+    display: flex;
+    bottom: 190px;
+}
+
+.botao-expansivel-checkbox:checked + .botao-expansivel-principal + .outros-botoes .botao-secundario-video {
+    display: flex;
+    bottom: 120px;
+}
+
+.botao-expansivel-checkbox:checked + .botao-expansivel-principal {
+    transform: rotate(45deg);
+    transition: transform 0.045s ease;
+    margin-right: 4px;
+}
+
+.botao-secundario-endereco,
+.botao-secundario-video {
+    display: none;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    right: 10px;
+    bottom: 50px;
+}
+
+.botoes-secundarios-1,
+.botoes-secundarios-2 {
+    border: none;
+    background-color: transparent;
+}
+
+.texto-botoes-secundarios {
+    margin-right: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    background: var(--branco);
+    font-family: var(--fonte-projeto);
+    border-radius: 10px;
+    padding: .5em;
+}
+
+@media screen and (min-width:1024px) {
+    .imagem-botao{
+        width: 120px;
+        height: 120px;
+    }
+    .texto-botoes-secundarios{
+        font-size: 14px;
+    }
+    .botao-expansivel-checkbox:checked + .botao-expansivel-principal + .outros-botoes .botao-secundario-endereco{
+        bottom: 230px;
+    }
+    
+    .botao-expansivel-checkbox:checked + .botao-expansivel-principal + .outros-botoes .botao-secundario-video {
+        bottom: 140px;
+    }
+    .botao-expansivel-checkbox:checked + .botao-expansivel-principal {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .imagem-botao{
+        width: 165px;
+        height: 165px;
+    }
+    .texto-botoes-secundarios{
+        font-size: 20px;
+    }
+    .botao-expansivel-checkbox:checked + .botao-expansivel-principal + .outros-botoes .botao-secundario-endereco{
+        bottom: 290px;
+    }
+    
+    .botao-expansivel-checkbox:checked + .botao-expansivel-principal + .outros-botoes .botao-secundario-video {
+        bottom: 170px;
+    }
+    .botao-expansivel-checkbox:checked + .botao-expansivel-principal {
+        margin-right: 5px;
+    }
+}
+
+
+

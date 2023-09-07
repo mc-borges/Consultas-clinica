@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Dr. Sônia</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Montserrat:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div class="cabecalho-navbar-celular">
+            <p class="cabecalho-horario">03:33</p>
+            <img src="img/signal_cellular_4_bar.svg" alt="sinal de operadora" class="cabecalho-icones">
+            <img src="img/battery_full.svg" alt="sinal de bateria" class="cabecalho-icones">
+            <img src="img/wifi.svg" alt="sinal de wifi" class="cabecalho-icones">
+        </div>
+        <div class="cabecalho-medico">
+            <img src="img/perfil-1.svg" alt="foto da medica" class="cabecalho-medico-foto">
+            <div class="cabecalho-medico-textos">
+                <h1 class="cabecalho-medico-textos-titulo ">Olá, Sônia</h1>
+                <p class="cabecalho-medico-textos-descricao">Mais 4 consultas hoje</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="consultas">
+        <h2 class="consultas-titulo">Hoje</h2>
+        <div class="alinhar-cards">
+            <div class="card">
+                <div class="card-informacoes-paciente">
+                    <img src="img/perfil-2.svg" alt="paciente 1" class="card-informacoes-paciente-foto">
+                    <div class="card-informacoes-paciente-dados">
+                        <h3 class="card-informacoes-paciente-nome">Luciana Dias</h3>
+                        <p class="card-informacoes-paciente-tipoconsulta">
+                            <img src="img/Camera.svg" alt="símbolo de consulta no local"
+                                class="card-informacoes-paciente-tipoconsulta-pin">
+                            Consulta remota
+                        </p>
+                    </div>
+                    <a href="#" class="card-informacoes-paciente-mensagem"><img src="img/Chatcirculo1.svg"
+                            class="consultas-botao"></a>
+                </div>
+                <hr />
+                <div class="card-comunicacao-paciente">
+                    <p class="card-comunicacao-paciente-horario">14:00 - 15:00 (1 hora)</p>
+                    <ul class="card-comunicacao-paciente-lista-botoes">
+                        <li class="card-comunicacao-paciente-lista-botoes-item">
+                            <a href="#" class="card-comunicacao-paciente-lista-botoes-item-video">Ligar por vídeo</a>
+                        </li>
+                        <li class="card-comunicacao-paciente-lista-botoes-item">
+                            <a href="#" class="card-comunicacao-paciente-lista-botoes-item-audio">Ligar por áudio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-informacoes-paciente">
+                    <img src="img/perfil-3.svg" alt="paciente 1" class="card-informacoes-paciente-foto">
+                    <div class="card-informacoes-paciente-dados">
+                        <h3 class="card-informacoes-paciente-nome">Larissa Santana</h3>
+                        <p class="card-informacoes-paciente-tipoconsulta">
+                            <img src="img/pin.svg" alt="símbolo de consulta no local"
+                                class="card-informacoes-paciente-tipoconsulta-pin">
+                            Consulta no local
+                        </p>
+                    </div>
+                    <a href="#" class="card-informacoes-paciente-mensagem"><img src="img/Chatcirculo1.svg"
+                            class="consultas-botao"></a>
+                </div>
+                <hr />
+                <div class="card-comunicacao-paciente">
+                    <p class="card-comunicacao-paciente-horario">16:00 - 17:00 - (1 hora)</p>
+                    <a href="#" class="card-comunicacao-paciente-botao-endereço">Ver endereço</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-informacoes-paciente">
+                    <img src="img/perfil-4.svg" alt="paciente 1" class="card-informacoes-paciente-foto">
+                    <div class="card-informacoes-paciente-dados">
+                        <h3 class="card-informacoes-paciente-nome">Marcos Correia</h3>
+                        <p class="card-informacoes-paciente-tipoconsulta">
+                            <img src="img/Camera.svg" alt="símbolo de consulta no local"
+                                class="card-informacoes-paciente-tipoconsulta-pin">
+                            Consulta remota
+                        </p>
+                    </div>
+                    <a href="#" class="card-informacoes-paciente-mensagem"><img src="img/Chatcirculo1.svg"
+                            class="consultas-botao"></a>
+                </div>
+                <hr />
+                <div class="card-comunicacao-paciente">
+                    <p class="card-comunicacao-paciente-horario">17:20 - 18:00 (40 minutos)</p>
+                    <ul class="card-comunicacao-paciente-lista-botoes">
+                        <li class="card-comunicacao-paciente-lista-botoes-item">
+                            <a href="#" class="card-comunicacao-paciente-lista-botoes-item-video">Ligar por vídeo</a>
+                        </li>
+                        <li class="card-comunicacao-paciente-lista-botoes-item">
+                            <a href="#" class="card-comunicacao-paciente-lista-botoes-item-audio">Ligar por áudio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="consultas">
+        <h2 class="consultas-titulo">Amanhã</h2>
+        <div class="alinhar-cards">
+            <div class="card">
+                <div class="card-informacoes-paciente">
+                    <img src="img/perfil-2.svg" alt="paciente 1" class="card-informacoes-paciente-foto">
+                    <div class="card-informacoes-paciente-dados">
+                        <h3 class="card-informacoes-paciente-nome">Luciana Dias</h3>
+                        <p class="card-informacoes-paciente-tipoconsulta">
+                            <img src="img/Camera.svg" alt="símbolo de consulta no local"
+                                class="card-informacoes-paciente-tipoconsulta-pin">
+                            Consulta remota
+                        </p>
+                    </div>
+                    <a href="#" class="card-informacoes-paciente-mensagem"><img src="img/Chatcirculo1.svg"
+                            class="consultas-botao"></a>
+                </div>
+                <hr />
+                <div class="card-comunicacao-paciente">
+                    <p class="card-comunicacao-paciente-horario">14:00 - 15:00 (1 hora)</p>
+                    <ul class="card-comunicacao-paciente-lista-botoes">
+                        <li class="card-comunicacao-paciente-lista-botoes-item">
+                            <a href="#" class="card-comunicacao-paciente-lista-botoes-item-video">Ligar por vídeo</a>
+                        </li>
+                        <li class="card-comunicacao-paciente-lista-botoes-item">
+                            <a href="#" class="card-comunicacao-paciente-lista-botoes-item-audio">Ligar por áudio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-informacoes-paciente">
+                    <img src="img/perfil-3.svg" alt="paciente 1" class="card-informacoes-paciente-foto">
+                    <div class="card-informacoes-paciente-dados">
+                        <h3 class="card-informacoes-paciente-nome">Larissa Santana</h3>
+                        <p class="card-informacoes-paciente-tipoconsulta">
+                            <img src="img/pin.svg" alt="símbolo de consulta no local"
+                                class="card-informacoes-paciente-tipoconsulta-pin">
+                            Consulta no local
+                        </p>
+                    </div>
+                    <a href="#" class="card-informacoes-paciente-mensagem"><img src="img/Chatcirculo1.svg"
+                            class="consultas-botao"></a>
+                </div>
+                <hr />
+                <div class="card-comunicacao-paciente">
+                    <p class="card-comunicacao-paciente-horario">16:00 - 17:00 - (1 hora)</p>
+                    <a href="#" class="card-comunicacao-paciente-botao-endereço">Ver endereço</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-informacoes-paciente">
+                    <img src="img/perfil-4.svg" alt="paciente 1" class="card-informacoes-paciente-foto">
+                    <div class="card-informacoes-paciente-dados">
+                        <h3 class="card-informacoes-paciente-nome">Marcos Correia</h3>
+                        <p class="card-informacoes-paciente-tipoconsulta">
+                            <img src="img/Camera.svg" alt="símbolo de consulta no local"
+                                class="card-informacoes-paciente-tipoconsulta-pin">
+                            Consulta remota
+                        </p>
+                    </div>
+                    <a href="#" class="card-informacoes-paciente-mensagem"><img src="img/Chatcirculo1.svg"
+                            class="consultas-botao"></a>
+                </div>
+                <hr />
+                <div class="card-comunicacao-paciente">
+                    <p class="card-comunicacao-paciente-horario">17:20 - 18:00 (40 minutos)</p>
+                    <ul class="card-comunicacao-paciente-lista-botoes">
+                        <li class="card-comunicacao-paciente-lista-botoes-item">
+                            <a href="#" class="card-comunicacao-paciente-lista-botoes-item-video">Ligar por vídeo</a>
+                        </li>
+                        <li class="card-comunicacao-paciente-lista-botoes-item">
+                            <a href="#" class="card-comunicacao-paciente-lista-botoes-item-audio">Ligar por áudio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-informacoes-paciente">
+                    <img src="img/perfil-5.svg" alt="paciente 1" class="card-informacoes-paciente-foto">
+                    <div class="card-informacoes-paciente-dados">
+                        <h3 class="card-informacoes-paciente-nome">Clara Lemos</h3>
+                        <p class="card-informacoes-paciente-tipoconsulta">
+                            <img src="img/pin.svg" alt="símbolo de consulta no local"
+                                class="card-informacoes-paciente-tipoconsulta-pin">
+                            Consulta no local
+                        </p>
+                    </div>
+                    <a href="#" class="card-informacoes-paciente-mensagem"><img src="img/Chatcirculo1.svg"
+                            class="consultas-botao"></a>
+                </div>
+                <hr />
+                <div class="card-comunicacao-paciente">
+                    <p class="card-comunicacao-paciente-horario">18:00 - 19:00 - (1 hora)</p>
+                    <a href="#" class="card-comunicacao-paciente-botao-endereço">Ver endereço</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="consultas">
+        <h2 class="consultas-titulo">Quarta-feira</h2>
+        <div class="alinhar-cards">
+            <div class="card">
+                <div class="card-informacoes-paciente">
+                    <img src="img/perfil-2.svg" alt="paciente 1" class="card-informacoes-paciente-foto">
+                    <div class="card-informacoes-paciente-dados">
+                        <h3 class="card-informacoes-paciente-nome">Luciana Dias</h3>
+                        <p class="card-informacoes-paciente-tipoconsulta">
+                            <img src="img/Camera.svg" alt="símbolo de consulta no local"
+                                class="card-informacoes-paciente-tipoconsulta-pin">
+                            Consulta remota
+                        </p>
+                    </div>
+                    <a href="#" class="card-informacoes-paciente-mensagem"><img src="img/Chatcirculo1.svg"
+                            class="consultas-botao"></a>
+                </div>
+                <hr />
+                <div class="card-comunicacao-paciente">
+                    <p class="card-comunicacao-paciente-horario">14:00 - 15:00 (1 hora)</p>
+                    <ul class="card-comunicacao-paciente-lista-botoes">
+                        <li class="card-comunicacao-paciente-lista-botoes-item">
+                            <a href="#" class="card-comunicacao-paciente-lista-botoes-item-video">Ligar por vídeo</a>
+                        </li>
+                        <li class="card-comunicacao-paciente-lista-botoes-item">
+                            <a href="#" class="card-comunicacao-paciente-lista-botoes-item-audio">Ligar por áudio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-informacoes-paciente">
+                    <img src="img/perfil-3.svg" alt="paciente 1" class="card-informacoes-paciente-foto">
+                    <div class="card-informacoes-paciente-dados">
+                        <h3 class="card-informacoes-paciente-nome">Larissa Santana</h3>
+                        <p class="card-informacoes-paciente-tipoconsulta">
+                            <img src="img/pin.svg" alt="símbolo de consulta no local"
+                                class="card-informacoes-paciente-tipoconsulta-pin">
+                            Consulta no local
+                        </p>
+                    </div>
+                    <a href="#" class="card-informacoes-paciente-mensagem"><img src="img/Chatcirculo1.svg"
+                            class="consultas-botao"></a>
+                </div>
+                <hr />
+                <div class="card-comunicacao-paciente">
+                    <p class="card-comunicacao-paciente-horario">16:00 - 17:00 - (1 hora)</p>
+                    <a href="#" class="card-comunicacao-paciente-botao-endereço">Ver endereço</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-informacoes-paciente">
+                    <img src="img/perfil-4.svg" alt="paciente 1" class="card-informacoes-paciente-foto">
+                    <div class="card-informacoes-paciente-dados">
+                        <h3 class="card-informacoes-paciente-nome">Marcos Correia</h3>
+                        <p class="card-informacoes-paciente-tipoconsulta">
+                            <img src="img/Camera.svg" alt="símbolo de consulta no local"
+                                class="card-informacoes-paciente-tipoconsulta-pin">
+                            Consulta remota
+                        </p>
+                    </div>
+                    <a href="#" class="card-informacoes-paciente-mensagem"><img src="img/Chatcirculo1.svg"
+                            class="consultas-botao"></a>
+                </div>
+                <hr />
+                <div class="card-comunicacao-paciente">
+                    <p class="card-comunicacao-paciente-horario">17:20 - 18:00 (40 minutos)</p>
+                    <ul class="card-comunicacao-paciente-lista-botoes">
+                        <li class="card-comunicacao-paciente-lista-botoes-item">
+                            <a href="#" class="card-comunicacao-paciente-lista-botoes-item-video">Ligar por vídeo</a>
+                        </li>
+                        <li class="card-comunicacao-paciente-lista-botoes-item">
+                            <a href="#" class="card-comunicacao-paciente-lista-botoes-item-audio">Ligar por áudio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card ultimo-card">
+                <div class="card-informacoes-paciente">
+                    <img src="img/perfil-5.svg" alt="paciente 1" class="card-informacoes-paciente-foto">
+                    <div class="card-informacoes-paciente-dados">
+                        <h3 class="card-informacoes-paciente-nome">Clara Lemos</h3>
+                        <p class="card-informacoes-paciente-tipoconsulta">
+                            <img src="img/pin.svg" alt="símbolo de consulta no local"
+                                class="card-informacoes-paciente-tipoconsulta-pin">
+                            Consulta no local
+                        </p>
+                    </div>
+                    <a href="#" class="card-informacoes-paciente-mensagem"><img src="img/Chatcirculo1.svg"
+                            class="consultas-botao"></a>
+                </div>
+                <hr />
+                <div class="card-comunicacao-paciente">
+                    <p class="card-comunicacao-paciente-horario">18:00 - 19:00 - (1 hora)</p>
+                    <a href="#" class="card-comunicacao-paciente-botao-endereço">Ver endereço</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="navbar-rodape">
+        <a href="#" class="navbar-rodape-botoes-link">
+            <div class="alinhar">
+                <img src="img/Calendarioicone.svg" alt="Botao de consultas agendadas"
+                    class="navbar-rodape-botoes-icone">
+                <p class="navbar-rodape-botoes-texto">Consultas</p>
+            </div>
+        </a>
+        <a href="#" class="navbar-rodape-botoes-link">
+            <div class="alinhar"><img src="img/clientes icone.svg" alt="Botao de consultas agendadas"
+                    class="navbar-rodape-botoes-icone">
+                <p class="navbar-rodape-botoes-texto">Clientes</p>
+            </div>
+        </a>
+        <a href="#" class="navbar-rodape-botoes-link">
+            <div class="alinhar"><img src="img/relatorios icone.svg" alt="Botao de consultas agendadas"
+                    class="navbar-rodape-botoes-icone">
+                <p class="navbar-rodape-botoes-texto">Relatórios</p>
+            </div>
+        </a>
+        <a href="#" class="navbar-rodape-botoes-link">
+            <div class="alinhar"><img src="img/menu icone.svg" alt="Botao de consultas agendadas"
+                    class="navbar-rodape-botoes-icone">
+                <p class="navbar-rodape-botoes-texto">Menu</p>
+            </div>
+        </a>
+    </section>
+
+
+    <section class="botao-expansivel">
+        <input type="checkbox" class="botao-expansivel-checkbox" id="botao-principal">
+        <label class="botao-expansivel-principal" for="botao-principal">
+            <img src="img/adicionar fab.svg" alt="Botão flutuante" class="imagem-botao">
+        </label>
+
+        <div class="outros-botoes">
+            <div class="botao-secundario-endereco">
+                <p class="texto-botoes-secundarios">Nova consulta na casa do paciente</p>
+                <button class="botoes-secundarios-1"><img src="img/pin fab.svg" class="imagem-botao"></button>
+            </div>
+            <div class="botao-secundario-video">
+                <p class="texto-botoes-secundarios">Nova consulta por vídeo</p>
+                <button class="botoes-secundarios-2"><img src="img/camera fab.svg" class="imagem-botao"></button>
+            </div>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>

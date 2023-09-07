@@ -1,0 +1,23 @@
+@import url("styles/header.css");
+@import url("styles/consultas.css");
+@import url("styles/rodapé.css");
+@import url("styles/botoes.css");
+@import url("styles/modal.css");
+:root{
+    --fonte-projeto: "Montserrat";
+    --branco: #FFFFFF;
+    --cor-principal:#464646;
+    --cor-secundaria:#A3A3A3;
+    --botão-vídeo: #FFB050;
+    --botão-borda-audio:#ECECEC;
+    --botão-endereço:#4894FF;
+    --cor-de-fundo:linear-gradient(166deg, #F8F4FF 0%, #EFF0F4 100%);
+}
+
+.body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-projeto);
+    font-weight: 500;
+    font-size: 12px;
+    position: relative;
+}
